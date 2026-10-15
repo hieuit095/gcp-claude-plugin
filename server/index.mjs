@@ -16,7 +16,7 @@ const READ_VERBS = new Set(['list', 'describe', 'get', 'show', 'read', 'tail', '
 const DANGER_WORDS = ['delete', 'remove', 'destroy', 'reset', 'wipe', 'purge', 'disable', 'revoke', 'rm', 'rb',
   'set-iam-policy', 'remove-iam-policy-binding', 'add-iam-policy-binding', 'undelete', 'detach', 'drop', 'truncate'];
 const WRITE_WORDS = new Set(['create', 'update', 'deploy', 'set', 'add', 'import', 'export', 'start', 'stop', 'resume', 'suspend',
-  'restart', 'enable', 'patch', 'apply', 'submit', 'run', 'ssh', 'scp', 'cp', 'mv', 'rsync', 'attach', 'resize', 'upload',
+  'restart', 'enable', 'patch', 'apply', 'submit', 'execute', 'ssh', 'scp', 'cp', 'mv', 'rsync', 'attach', 'resize', 'upload',
   'copy', 'move', 'reserve', 'release', 'rollback', 'cancel', 'login', 'activate', 'revoke', 'call', 'invoke', 'build', 'push', 'tag', 'untag', 'sign', 'encrypt', 'decrypt']);
 const SECRET_PATTERNS = [
   /auth\b.*\bprint-access-token/, /auth\b.*\bprint-identity-token/, /secrets\b.*\bversions\b.*\baccess/,
