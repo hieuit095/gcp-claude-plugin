@@ -4,7 +4,7 @@ Lets Claude operate Google Cloud through the real `gcloud`, `bq` and `gsutil` CL
 
 ## Install
 ```
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add hieuit095/gcp-claude-plugin
 /plugin install gcp@gcp-tools
 ```
 Local test: `claude --plugin-dir /path/to/gcp-plugin`
