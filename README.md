@@ -28,3 +28,6 @@ Set `GCP_READ_ONLY=1` to forbid all writes. Claude Code's own tool-permission pr
 
 ## Tools
 `gcloud`, `bq`, `gsutil` (run any command), `gcloud_auth_status`, `gcloud_login`, `gcloud_set_project`, `gcloud_list_projects`, `gcloud_help`.
+
+## License
+MIT — see [LICENSE](LICENSE).
