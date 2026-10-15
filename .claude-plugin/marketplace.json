@@ -1,0 +1,11 @@
+{
+  "name": "gcp-tools",
+  "owner": { "name": "hieuit095" },
+  "plugins": [
+    {
+      "name": "gcp",
+      "source": "./",
+      "description": "Operate Google Cloud (gcloud, bq, gsutil) from Claude Code with Google login and safety gating."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "gcp",
+  "version": "0.1.0",
+  "description": "Operate Google Cloud from Claude Code through the gcloud, bq and gsutil CLIs, with Google login, safety gating for mutating commands, and secret-output protection.",
+  "author": { "name": "hieuit095" },
+  "keywords": ["gcp", "google-cloud", "gcloud", "bigquery", "mcp"]
+}
